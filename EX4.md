@@ -19,11 +19,11 @@ Table created.
 SQL> create or replace procedure insert_employeee_data AS
   2  begin
   3  insert into employeee (empid,empname,dept,salary)
-  4  values (1,'NANDHA','MD',1000000);
+  4  values (1,'Levi','MD',1000000);
   5  insert into employeee (empid,empname,dept,salary)
-  6  values (2,'ROHIT','HR',500000);
+  6  values (2,'Erwin','HR',500000);
   7  insert into employeee (empid,empname,dept,salary)
-  8  values (3,'TEJUS','IT',200000);
+  8  values (3,'Eren','IT',200000);
   9  commit;
  10  end;
  11  /
@@ -41,8 +41,7 @@ SQL> select * from employeee;
 ```
 
 ### Output:
-![image](https://github.com/jeevansurya30/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/129417865/37804702-6f19-40c0-afd8-20e5cc49cc81)
-
+![image](https://github.com/jeevansurya30/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/129417865/01eee92c-1157-427b-ab17-f5b38c4f3be3)
 
 ### Result:
 Hence the procedure using pl/sql is created successfully.
